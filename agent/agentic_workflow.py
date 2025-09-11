@@ -26,9 +26,9 @@ class  GraphBuilder():
                            * self.calculator_tools.calculator_tool_list,
                            * self.currency_converter_tools.currency_converter_tool_list])
         
-        # self.llm_with_tools = self.llm.bind_tools(tools=self.tools)
+        self.llm_with_tools = self.llm.bind_tools(tools=self.tools)
         
-        # self.graph = None
+        self.graph = None
         
         self.system_prompt = SYSTEM_PROMPT
     

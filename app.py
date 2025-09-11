@@ -1,11 +1,13 @@
+import os
 from fastapi import FastAPI
-
-
-
-app = FastAPI()import os
 from pydantic import BaseModel
 from starlette.responses import JSONResponse
 from agent.agentic_workflow import GraphBuilder
+
+
+app = FastAPI()
+
+
 
 class QueryRequest(BaseModel):
     question: str
