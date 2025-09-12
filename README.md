@@ -46,18 +46,20 @@ AI_TRIP_PLANNER/
 ```
 
 
+## Project Setup
 
+```text
 ## Clone the repo
 git clone https://github.com/itsabdullah15/ai-trip-planner.git
 cd ai-trip-planner
 
 ## Create a virtual environment
 python -m venv .venv
-source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+source .venv/bin/activate   
 
 ## Install dependencies
 pip install -r requirements.txt
-
+```
 
 
 ## 🔑 Setup Environment Variables
