@@ -75,16 +75,20 @@ EXCHANGERATE_API_KEY=""
 ```
 
 ## 🛠️ Usage
-Run the Agent Workflow
+
+### Run the Agent Workflow
+```text
 uvicorn main:app --reload --port 8000 
+```
 
-Run the Streamlit App
+### Run the Streamlit App
+```text
 streamlit run streamlit_app.py
-
-Then open 👉 http://localhost:8501 in your browser.
+```
 
 
 ## 🧩 How It Works
+```text
 	1.	GraphBuilder (agentic_workflow.py)
 	•	Loads an LLM model (default: groq).
 	•	Binds tools (weather, place search, calculator, currency).
@@ -94,6 +98,7 @@ Then open 👉 http://localhost:8501 in your browser.
 	•	Tools are dynamically invoked based on user query.
 	3.	Execution Flow
     •   User → Agent → Tool (if needed) → Agent → Response
+```
 
 
 ## 📌 Example Queries
