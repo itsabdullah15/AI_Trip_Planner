@@ -47,20 +47,20 @@ AI_TRIP_PLANNER/
 
 
 
-# Clone the repo
+## Clone the repo
 git clone https://github.com/itsabdullah15/ai-trip-planner.git
 cd ai-trip-planner
 
-# Create a virtual environment
+## Create a virtual environment
 python -m venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
 
 
-🔑 Setup Environment Variables
+## 🔑 Setup Environment Variables
 
 Create a .env file in the root directory and add your API keys:
 
@@ -73,7 +73,7 @@ OPENWEATHER_API_KEY=""
 EXCHANGERATE_API_KEY=""
 
 
-🛠️ Usage
+## 🛠️ Usage
 Run the Agent Workflow
 uvicorn main:app --reload --port 8000 
 
@@ -83,7 +83,7 @@ streamlit run streamlit_app.py
 Then open 👉 http://localhost:8501 in your browser.
 
 
-🧩 How It Works
+## 🧩 How It Works
 	1.	GraphBuilder (agentic_workflow.py)
 	•	Loads an LLM model (default: groq).
 	•	Binds tools (weather, place search, calculator, currency).
@@ -95,13 +95,13 @@ Then open 👉 http://localhost:8501 in your browser.
     •   User → Agent → Tool (if needed) → Agent → Response
 
 
-📌 Example Queries
+## 📌 Example Queries
 	•	“What will the weather be in Paris next weekend?”
 	•	“Find me the top 5 tourist attractions in Tokyo.”
 	•	“Convert 500 USD to EUR.”
 	•	“Calculate total expense for flights (400), hotel (300), and food (200).”
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
