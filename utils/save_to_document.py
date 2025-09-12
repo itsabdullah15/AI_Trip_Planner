@@ -8,10 +8,8 @@ def save_document(response_text: str, directory: str = "./output"):
     
     # Create markdown content with metadata header
     markdown_content = f"""# 🌍 AI Travel Plan
-
     # **Generated:** {datetime.datetime.now().strftime('%Y-%m-%d at %H:%M')}  
-    # **Created by:** Atriyo's Travel Agent
-
+    # **Created by:** Abdullah's Travel Agent
     ---
 
     {response_text}
