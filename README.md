@@ -43,7 +43,7 @@ AI_TRIP_PLANNER/
 ├── setup.py                      # Setup file
 ├── pyproject.toml                # Project metadata
 ├── README.md                     # Project documentation
-
+```
 
 
 
