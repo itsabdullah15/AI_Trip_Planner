@@ -62,6 +62,7 @@ pip install -r requirements.txt
 
 ## 🔑 Setup Environment Variables
 
+```text
 Create a .env file in the root directory and add your API keys:
 
 GROQ_API_KEY=""
@@ -71,7 +72,7 @@ FOURSQUARE_API_KEY=""
 TAVILA_API_KEY=""
 OPENWEATHER_API_KEY=""
 EXCHANGERATE_API_KEY=""
-
+```
 
 ## 🛠️ Usage
 Run the Agent Workflow
