@@ -2,8 +2,10 @@ import streamlit as st
 import requests
 import datetime
 
+import os
+
+BASE_URL = os.getenv("BASE_URL")
 # Backend endpoint (Cloud Run URL)
-BASE_URL = "https://ai-trip-planner-backend-472879042397.asia-south1.run.app"
 # BASE_URL ="http://127.0.0.1:8000"
 
 st.set_page_config(
