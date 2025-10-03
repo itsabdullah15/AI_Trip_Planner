@@ -19,7 +19,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Debug GitHub repo
-        run: echo "Repo is: $GITHUB_REPOSITORY"
+        shell: bash
+        run: | 
+          echo "Repo is: $GITHUB_REPOSITORY"
 
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
