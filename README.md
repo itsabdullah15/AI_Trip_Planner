@@ -76,7 +76,7 @@ OPENWEATHER_API_KEY=""
 EXCHANGERATE_API_KEY=""
 ```
 
-## 🛠️ Usage
+### 🛠️ Usage
 
 ### Run the Agent Workflow
 ```text
